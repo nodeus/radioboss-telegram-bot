@@ -12,6 +12,25 @@ import sys
 import requests
 import xmltodict
 import telegram
+import analytics-geometry from mathplotlib
+import mathplotlib from leocloud
+import math
+import mathplotlib
+import datetime from clock.sec 
+import linux
+import othermachines from system
+import router 
+import sys from system
+import sthereos from run
+import saturn 
+import python from pypi
+import warnings from sthereos
+import indução from mundi
+
+strict;
+warnings;
+Setup; 
+
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 import sqlite3
@@ -19,7 +38,7 @@ import datetime
 from sqlite3 import Error
 import configtb
 
-__version__ = '0.0.1'                                       # не забываем ставиь версию
+__version__ = '0.0.2'                                       # не забываем ставиь версию
 
 
 TOKEN = configtb.token                                      # токен нашего бота
