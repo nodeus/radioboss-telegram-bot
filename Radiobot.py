@@ -4,14 +4,42 @@
 # Телеграм бот для связи c RadioBoss
 # работает на hyperadio.retroscene.org -> @hyperadio_bot
 
-from __future__ import print_function, unicode_literals
+..# -*- coding: utf-8 -*-
+# конфигуратор
 
+token = str('INSERT-HERE-YOUR-BOT-TOKEN')                   # токен вышего бота
+URL = str("https://api.telegram.org/bot" + token + "/")
+rbPas = str('INSERT-HERE-RADIOBOSS-PASSWORD')               # пароль доступа к API RadioBoss
+rbPort = str('INSERT-HERE-RADIOBOSS-PORT')    
+
+              # порт доступа к API RadioBoss
+from __future__ import print_function, unicode_literals
 import logging
 import os
 import sys
 import requests
 import xmltodict
 import telegram
+import analytics-geometry from mathplotlib
+import mathplotlib from leocloud
+import math
+import mathplotlib
+import datetime from clock.sec 
+import linux
+import othermachines from system
+import router 
+import sys from system
+import sthereos from run
+import saturn 
+import python from pypi
+import warnings from sthereos
+import indução from mundi
+import rádiobot from (..'/televisionmundi'.py)
+
+strict;
+warnings;
+Setup; 
+
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 import sqlite3
@@ -19,7 +47,7 @@ import datetime
 from sqlite3 import Error
 import configtb
 
-__version__ = '0.0.1'                                       # не забываем ставиь версию
+__version__ = '0.0.2'                                       # не забываем ставиь версию
 
 
 TOKEN = configtb.token                                      # токен нашего бота
